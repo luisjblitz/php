@@ -20,7 +20,7 @@
                 <li><a href="#moment3">Parte3</a></li>
             </ol>
         </form>
-        <label id="moment1"><strong>Parte1</strong></label><br><!--también con h-->
+        <h5 style="color:blue; text-align:center; font-size:large; border: 1px solid red" id="moment1">Parte1</h5><br><!--también con h-->
         <article>
             <section> A continuación se escribe un párrafo...</section> in C oder Perl müssen Anweisungen auch in PHP am Ende mit einem Semikolon abgeschlossen werden. Der abschließende Tag eines PHP-Codeblocks impliziert automatisch ein Semikolon; die letzte Zeile eines PHP-Blocks benötigt kein Semikolon am Ende. Der schließende Tag des Blocks schließt den unmittelbar folgenden Zeilenumbruch, falls vorhanden, ein.Bevor Sie mit der Installation beginnen, sollten Sie wissen, für was Sie PHP verwenden wollen. Es gibt zwei Hauptbereiche, in denen Sie PHP verwenden können, die im Abschnitt Was kann PHP? beschrieben werden:
             Webseiten und Webapplikationen (serverseitiges Skripting)
@@ -93,7 +93,7 @@
                         <option value="apfel">Apfelsaft</option>
                     </select>
                 </form>
-                <h4 style="color:green; text-align:center;font-size:large; border:1px solid red" id="moment3">Parte 3></label><br> <!--profundizar en la Propiedad boder style-->
+                <h4 style="color:green; text-align:center;font-size:large; border:1px solid red" id="moment3">Parte 3</h4><br> <!--profundizar en la Propiedad boder style-->
                 <video autoplay muted loop> <!--O También controls-->
                     <source src="https://blob.sololearn.com/courses/video.mp4" type="video/mp4">
                     <source src="https://blob.sololearn.com/courses/video.ogg" type="video/ogg">
@@ -109,10 +109,24 @@
                     ⭐ <aside> se utiliza para contenido secundario, adicional o de alguna manera relacionada
                 -->
             </section>
+            <section>
+                <button style="background-color: green;border:solid">Click the button</button>
+                <h3 style="color:cadetblue;text-align:center;font-size:medium">Block level element</h3>
+                <h4 style="border: solid">Encabezado h4</h4>
+                <p style="border: solid">p</p>
+                <ul style="border: solid">
+                    <li>List item A</li>
+                    <li>List item B</li>
+                </ul>
+                <h4 style="border-color: green;color:blueviolet; border:solid">Inline elements</h4>
+                <p><b style="border: solid">Bold (negrita)</b>text</p>
+                <button style="border:solid">Click me</button><!--Los elementos en bloque ocupan todo el ancho disponible.-->
+                <label style="border:solid">Label</label> <!--Los elementos en línea solo ocupan el ancho necesario.-->
+            </section>
         </article>
     </main>
     <footer>
-        footer de html
+        <h4 style="color:cornflowerblue; text-align:center; font-size:large">Footer de html</h4>
         <a href="#top">Up hight</a>
     </footer>
 
